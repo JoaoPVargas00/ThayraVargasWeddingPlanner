@@ -141,6 +141,10 @@ em{
   font-size:17px
 }
 
+.button>i{
+  font-size:16px
+}
+
 .button-cream{
   background:var(--cream);
   color:var(--forest)
@@ -180,6 +184,10 @@ em{
 
 .line-link span{
   font-size:16px
+}
+
+.line-link>i{
+  font-size:15px
 }
 
 .header{
@@ -554,7 +562,6 @@ em{
 }
 
 .service-icon{
-  font-family:var(--serif);
   font-size:31px;
   color:var(--gold)
 }
@@ -1051,7 +1058,7 @@ em{
 
 .whatsapp-main small{
   margin-bottom:3px;
-  font-size:7px;
+  font-size:18px;
   font-weight:600;
   letter-spacing:.14em
 }
@@ -1105,6 +1112,14 @@ em{
   grid-column:2;
   grid-row:1/3;
   align-self:center
+}
+
+.contact-links>a>i{
+  grid-column:2;
+  grid-row:1/3;
+  align-self:center;
+  color:var(--rose);
+  font-size:17px
 }
 
 .contact-note{
@@ -1771,7 +1786,6 @@ to{
 
 .whatsapp-main-icon{
   background:#25d366;
-  font-family:var(--sans);
   font-size:25px;
   font-weight:700;
   letter-spacing:0
